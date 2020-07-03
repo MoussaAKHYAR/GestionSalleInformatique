@@ -24,7 +24,7 @@ public class MainController{
 
         if (user.getLogin(login,password) != null){
            // System.out.println("ok");
-            String url="../sn/isi/appgestionsalleinformatique/ui/salle.fxml";
+            String url="../sn/isi/appgestionsalleinformatique/ui/accueil.fxml";
             tools.Notification.NotifSucces("BIENVENUE", "CONNEXION REUSSIE!!!");
             try {
                 Outils.load(event,url,"Salle");

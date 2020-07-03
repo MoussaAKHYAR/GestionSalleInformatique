@@ -41,8 +41,7 @@ public class SalleController implements Initializable {
 
         Salle s = tablesalle.getSelectionModel().getSelectedItem();
         idS = s.getId();
-        libelletxt.setText(s.getLibelle()); 
-
+        libelletxt.setText(s.getLibelle());
     }
 
     @FXML
@@ -61,7 +60,6 @@ public class SalleController implements Initializable {
                 }else
                 {
                     tools.Notification.NotifError("error", "donnees  non  ajoutes!!!");
-
                 }
             } catch (Exception e) {
                 e.printStackTrace();
@@ -97,10 +95,8 @@ public class SalleController implements Initializable {
 
             if(iSalle.update(salle) == 1)
             {
-
                 Outils.showConfirmationMessage("INFO","serveur mis a jour");
                 loadTable();
-
             }else
             {
                 Outils.showErrorMessage("erreur","veuillez ressayer");

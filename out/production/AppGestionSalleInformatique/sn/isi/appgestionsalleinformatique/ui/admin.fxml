@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="79.0" layoutY="91.0" text="Nom" />
+      <Label layoutX="79.0" layoutY="140.0" text="Prenom" />
+      <Label layoutX="78.0" layoutY="192.0" text="Email" />
+      <TextField layoutX="144.0" layoutY="87.0" />
+      <TextField layoutX="144.0" layoutY="136.0" />
+      <TextField layoutX="144.0" layoutY="188.0" />
+      <Label layoutX="75.0" layoutY="249.0" text="Password" />
+      <Button layoutX="41.0" layoutY="340.0" mnemonicParsing="false" text="Ajouter" />
+      <Button layoutX="166.0" layoutY="340.0" mnemonicParsing="false" text="Supprimer" />
+      <Button layoutX="293.0" layoutY="340.0" mnemonicParsing="false" text="Modifier" />
+      <PasswordField layoutX="144.0" layoutY="245.0" />
+   </children>
+</Pane>
