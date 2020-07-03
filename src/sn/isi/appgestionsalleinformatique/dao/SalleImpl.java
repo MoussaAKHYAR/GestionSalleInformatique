@@ -51,6 +51,7 @@ public class SalleImpl implements ISalle {
 
             db.initPrepar(sql);
             db.getPstm().setString(1, salle.getLibelle());
+            db.getPstm().setInt(2, salle.getId());
             db.executeMaj();
         } catch (Exception ex) {
             ex.printStackTrace();

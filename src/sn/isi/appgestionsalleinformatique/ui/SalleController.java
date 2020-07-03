@@ -41,6 +41,7 @@ public class SalleController implements Initializable {
 
         Salle s = tablesalle.getSelectionModel().getSelectedItem();
         idS = s.getId();
+        libelletxt.setText(s.getLibelle()); 
 
     }
 
